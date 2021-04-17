@@ -16,7 +16,7 @@
 
 Update freshclam.conf with repo info
 
-    $ vi /volume1/@appstore/AntiVirus/engine/clamav/etc/freshclam.confw
+    $ vi /volume1/@appstore/AntiVirus/engine/clamav/etc/freshclam.conf
 
 Add DatabaseCustomURL
 
