@@ -4,11 +4,11 @@ Failed updates synology
 
   
 
-**# Update freshclam.conf with repo info**
+** - Update freshclam.conf with repo info**
 
 $ vi /volume1/@appstore/AntiVirus/engine/clamav/etc/freshclam.conf
 
-**Add DatabaseCustomURL**
+** - Add DatabaseCustomURL**
 
 DatabaseCustomURL [http://ftp.swin.edu.au/sanesecurity/junk.ndb](http://ftp.swin.edu.au/sanesecurity/junk.ndb) 
 
@@ -30,11 +30,11 @@ DatabaseCustomURL [http://ftp.swin.edu.au/sanesecurity/sanesecurity.ftm](http://
 
 DatabaseCustomURL [http://ftp.swin.edu.au/sanesecurity/sigwhitelist.ign2](http://ftp.swin.edu.au/sanesecurity/sigwhitelist.ign2)
 
-**Add DatabaseMirror**
+** - Add DatabaseMirror**
 
 Add DatabaseMirror clamavdb.c3sl.ufpr.br
 
-**Run freshclam with config's update.**
+** - Run freshclam with config's update.**
 
 $ cd /volume1/@appstore/AntiVirus/engine/clamav/bin
 
